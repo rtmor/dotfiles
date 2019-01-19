@@ -1,0 +1,72 @@
+[general]
+accounts = rtmoranorg, gmail, rmoran16mvcc
+starttls = yes
+ssl = yes
+ssl_versions = tls1_2 
+pythonfile = ~/.config/mutt/credentials/imappwd.py
+
+
+
+[Account rtmoranorg]
+localrepository = rtmoranorg-local
+remoterepository = rtmoranorg-remote
+
+[Repository rtmoranorg-remote]
+auth_mechanisms = LOGIN
+type = IMAP
+remoteuser = ryan@rtmoran.org
+remotepasseval = mailpasswd("rtmoranorg")
+remotehost = imappro.zoho.com
+remoteport = 993
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Repository rtmoranorg-local]
+type = Maildir
+localfolders = ~/.mail/rtmoranorg
+
+
+
+
+
+
+
+
+
+
+[Account gmail]
+localrepository = gmail-local
+remoterepository = gmail-remote
+
+[Repository gmail-remote]
+ssl_version = tls1_2 
+auth_mechanisms = LOGIN
+type = Gmail
+remoteuser = rt.moran0@gmail.com
+remotepasseval = mailpasswd("gmail")
+remoteport = 993
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Repository gmail-local]
+type = Maildir
+localfolders = ~/.mail/gmail
+
+
+[Account rmoran16mvcc]
+localrepository = rmoran16mvcc-local
+remoterepository = rmoran16mvcc-remote
+
+[Repository rmoran16mvcc-remote]
+auth_mechanisms = LOGIN
+ssl = no
+type = IMAP
+remoteuser = rmoran16
+remotepasseval = mailpasswd("rmoran16mvcc")
+remotehost = 127.0.0.1
+remoteport = 1143
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Repository rmoran16mvcc-local]
+type = Maildir
+localfolders = ~/.mail/rmoran16mvcc

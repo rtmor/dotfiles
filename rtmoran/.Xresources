@@ -1,0 +1,76 @@
+! ----------------------------------------------------------------------
+! Import Color
+! ----------------------------------------------------------------------
+
+#include ".colors/nord"
+
+
+Xft.dpi:                 96
+Xft.antialias:           true
+Xft.hinting:             true
+Xft.rgba:                rgb
+Xft.autohint:            false
+Xft.hintstyle:           hintslight
+Xft.lcdfilter:           lcddefault
+
+!*fading: 22
+
+Xcursor.theme: -h
+Xcursor.size:                      0
+
+!URxvt.font:xft:curie:size=12
+!URxvt.font:                       xft:Source Code Pro for Powerline:style=Regular:antialias=true:size=12
+!URxvt.boldFont:                   xft:Source Code Pro for Powerline:style=Regular:antialias=true:size=12
+!URxvt.font:                         xft:mononoki Nerd Font Mono:style=Regular:antialias=true:size=12
+!URxvt.font:                      xft:DejaVuSansMonoForPowerline Nerd Font:style=Regular:antialias=true:size=12
+!URxvt.font:                      xft:DejaVu Sans Mono for Powerline:style=Book:antialias=true:size=11
+!URxvt.font:                      xft:MonofurForPowerline Nerd Font:style=Book:antialias=true:size=13
+!URxvt.font:                      xft:ProggyCleanTT Nerd Font Mono:style=Book:size=15
+!URxvt.font:                      xft:FuraCode Nerd Font:style=Retina:antialias=true:size=11
+!URxvt.boldFont:                  xft:FuraCode Nerd Font:style=Bold:size=11
+!URxvt.font:                      xft:FuraMonoForPowerline Nerd Font:style=Regular:antialias=true:size=10
+!URxvt.font:                      xft:M+ 1mn:style=regular:size=12
+!URxvt.boldFont:                  xft:M+ 1mn:style=medium:size=12
+URxvt.font:                      xft:Iosevka Nerd Font Mono:style=Regular:antialias=true:size=13
+URxvt.boldFont:                  xft:Iosevka Nerd Font Mono:style=Regular:antialias=true:size=13
+URxvt.italicFont:                xft:Iosevka Nerd Font Mono:style=Italic:antialias=true:size=13
+URxvt.boldItalicFont:            xft:Iosevka Nerd Font Mono:style=Bold Italic:size=13
+!URxvt.font:                       xft:FantasqueSansMono Nerd Font Mono:antialias=true:size=13
+!URxvt.boldFont:                   xft:FantasqueSansMono Nerd Font Mono:style=Bold:size=13
+!URxvt.italicFont:                 xft:FantasqueSansMono Nerd Font Mono:style=Italic:antialias=true:size=13
+
+
+URxvt.depth:                      32
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+URxvt*termName:                   rxvt-256color
+URxvt*internalBorder:             24
+URxvt*externalBorder:             0
+URxvt*colorUL:			             #4692B4
+!URxvt*blurRadius:                 75
+
+
+! url-select. We can middle-click on any url and this will launch the browser
+! defined by `URxvt.url-select.launcher`.
+URxvt.perl-ext-common: ...,url-select,resize-font,clipboard
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.underline: true
+URxvt.url-select.launcher: firefox
+!
+URxvt.keysym.C-minus:               resize-font:smaller
+URxvt.keysym.C-equal:                resize-font:bigger
+URxvt.keysym.C-plus:               resize-font:reset
+URxvt.keysym.C-question:            resize-font:show
+URxvt.resize-font.step:             2
+
+! Normal copy-paste keybindings without perls
+URxvt.iso14755:                   false
+!URxvt.keysym.Shift-Control-V:     eval:paste_clipboard
+!URxvt.keysym.Shift-Control-C:     eval:selection_to_clipboard
+! Rxvt.perl-ext-common:             ...,clipboard
+URxvt.keysym.Shift-Control-C:     perl:clipboard:copy
+URxvt.keysym.Shift-Control-V:     perl:clipboard:paste
+URxvt.keysym.M-C-v:               perl:clipboard:paste_escaped
+

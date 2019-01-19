@@ -1,0 +1,22 @@
+#!/bin/bash
+
+sxhkd &
+nitrogen --restore; sleep 1; compton -b &
+xrdb merge .Xresources &
+xrandr --output eDP1 --mode 1920x1080 &
+xfce4-power-manager &
+ff-theme-util &
+xinput --set-prop "SYNA2B31:00 06CB:7F8B Touchpad" "libinput Natural Scrolling Enabled" 1 &
+libinput-gestures-setup start &
+nitrogen --set-zoom-fill /usr/share/backgrounds/current.jpg &
+redshift &
+nohup davmail .davmail.properties &
+nohup sleep 10 && gcsf mount ~/rt.moran0@gmail.com -s rtmoran &
+calcurse-caldav --syncdb .calcurse/caldav/sync.db $
+pcmanfm -d &
+pulseaudio -D &
+pulseeffects -l p3 --gapplication-service &
+pa-applet &
+pamac-tray &
+nm-applet &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
