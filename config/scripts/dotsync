@@ -9,7 +9,6 @@ cp $HOME/.zshrc $DOT_HOME/rtmoran/
 cp $HOME/.xsettingsd $DOT_HOME/rtmoran/
 cp $HOME/.vimrc $DOT_HOME/rtmoran/
 cp $HOME/.profile $DOT_HOME/rtmoran/
-cp $HOME/.offlineimap $DOT_HOME/rtmoran/
 cp $HOME/.offlineimaprc $DOT_HOME/rtmoran/
 cp $HOME/.msmtprc $DOT_HOME/rtmoran/
 cp $HOME/.gtkrc-2.0 $DOT_HOME/rtmoran/
@@ -35,5 +34,5 @@ cp -r $XDG_CONFIG_HOME/rofi/ $DOT_HOME/config/
 cp -r $XDG_CONFIG_HOME/scripts/ $DOT_HOME/config/
 cp -r $XDG_CONFIG_HOME/sxhkd/ $DOT_HOME/config/
 cd $DOT_HOME && git add .
-git commit && git push
+git push -u origin master && git push
 
