@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>selenity</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="NPL1270018 (modified by Raxgahrax (modified by SpurgeLaurels)">
+  <meta name="description" content="">
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link type="text/css" rel="stylesheet" href="css/font.css">
+  <link type="text/css" rel="stylesheet" href="css/stylesheet.css">
+  <link type="text/css" rel="stylesheet" href="fonts/font-awesome/font-awesome.min.css">
+  <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+</head>
+<body>
+  <div id="wrapper">
+    <div class="terminal-con">
+      <div class="terminal-row ext-top">
+        <div class="terminal-label"><span class="hl-gray">---------------------------------------------------</span></div>
+      </div>
+      <div class="search-row">
+        <input id="search-field" type="text" name="search-field" placeholder=">> Search... " onkeypress="return search(event)" autofocus="true" />
+        <script type="text/javascript">
+function search(e) {
+  if (e.keyCode === 13) {
+    // Get's via jquery the search field
+    var searchText = $("#search-field");
+    // Opens queried page in a new tab
+    window.open("https://google.ca/search?q=" + searchText.val() + "&kp=1&kl=fr-fr&kh=1&kg=p&k5=1&kae=t&k1=-1&kaj=m", "_blank");
+    // Reset search field input
+    searchText.val("");
+    return false;
+  }
+}
+        </script>
+      </div>
+      <div class="terminal-row">
+        <div class="terminal-label"><span class="hl-gray">---------------------------------------------------</span></div>
+      </div>
+      <div class="terminal-row ext-btm">
+      </div>
+
+      <div class="terminal-row">
+      </div>
+      <div class="terminal-innerCon">
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>Entertainment</span>
+          </div>
+          <div class="favCon-body">
+            <a href="https://www.reddit.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>reddit</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.youtube.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>youtube</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.hackthebox.eu" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>hackthebox</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>Work</span>
+          </div>
+          <div class="favCon-body">
+            <a href="https://www.rtmoran.org" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>rtmoran.org</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://github.com/rtmoran.org/" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>rtmoranorg // github</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="favCon">
+          <div class="favCon-header">
+            <span>News / Reading</span>
+          </div>
+          <div class="favCon-body">
+            <a href="https://www.washingtonpost.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>washington post</span>
+                </div>
+              </div>
+            </a>
+            <a href="https://www.nytimes.com" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>new york times</span>
+                </div>
+              </div>
+            </a>
+            <a href="" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+            <a href="#" onfocus="if(this.blur)this.blur()" target="_blank">
+              <div class="favCon-el">
+                <div class="favCon-el-content">
+                  <span>#</span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div><div class="terminal-row terminal-extend"></div>
+  </div>
+</body>
+
+</html>
