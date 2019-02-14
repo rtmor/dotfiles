@@ -10,13 +10,16 @@ let mapleader =";"
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'
 Plug 'dylanaraps/wal.vim'
+Plug 'tpope/vim-markdown'
+"Plug 'plasticboy/vim-markdown'
 " Plug 'xolox/vim-misc'
 Plug 'vimwiki/vimwiki'
 " Plug 'jreybert/vimagit'
 " Plug 'xolox/vim-shell'
 Plug 'takac/vim-hardtime'
+Plug 'trevordmiller/nova-vim'
 Plug 'arcticicestudio/nord-vim'
-Plug 'vim-airline/vim-airline'
+Plug 'itchyny/lightline.vim'
 
 call plug#end()
 
@@ -28,15 +31,31 @@ call plug#end()
 	set number
 	set relativenumber
 	set mouse=a
+   set termguicolors
 	cmap qq q!
+   set noshowmode
+   set fcs=eob:\  
 
+
+let g:markdown_syntax_conceal = 0
 filetype plugin indent on
 
 " Enable Hardmode by default
 " autocmd VimEnter,BufNewFile,BufReadPost * silent! HardTimeOn
 
 " Set Theme
-colorscheme nord
+colorscheme nova
+let g:nova_transparent = 1
+"colorscheme nord
+"let g:nord_uniform_status_lines = 1
+"let g:nord_comment_brightness = 12
+"let g:nord_cursor_line_number_background = 1
+"let g:nord_italic_comments = 1
+"let g:nord_underline = 1
+"let g:nord_italic = 1
+let g:lightline = {
+      \ 'colorscheme': 'nova',
+      \ }
 
 " On pressing tab, insert 2 spaces
 set expandtab
@@ -86,8 +105,9 @@ inoremap jj <ESC>
 "For saving view folds:
 	"au BufWinLeave * mkview
 	"au BufWinEnter * silent loadview
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
 
-" Interpret .md files, etc. as .markdown
+" Interpret .md files, etc. as .arkdown
 	let g:vimwiki_ext2syntax = {'.Rmd': 'markdown', '.rmd': 'markdown','.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
 
 " Readmes autowrap text:
@@ -116,23 +136,27 @@ inoremap jj <ESC>
     so /home/rtmoran/.vim/rtmoran/prose.vim
     nm <F8> :call ToggleProse()<CR>
 
-" Enable Notebooks timestamp
-    autocmd BufNewFile *.md :r!date
+" Insert date
+   iab <expr> $(date) strftime("%B %d, %Y")
 
 " Enable Goyo by default for mutt writting
 	" Goyo's width will be the line limit in mutt.
 	autocmd BufRead,BufNewFile /tmp/neomutt* let g:goyo_width=80
 	autocmd BufRead,BufNewFile /tmp/neomutt* Goyo
 
+" Enable Goyo default for markdown note taking
+   autocmd FileType markdown,mkd,md Goyo
+   autocmd FileType markdown,mkd,md setl conceallevel=0
+   autocmd FileType markdown,mkd,md call ToggleProse()
+   autocmd FileType markdown,mkd,md setl showmode
+   au FileType md setl conceallevel=0
+
 " Enable autocompletion:
 	set wildmode=longest,list,full
 	set wildmenu
 
 " Automatically deletes all tralling whitespace on save.
-	autocmd BufWritePre * %s/\s\+$//e
-
-" When shortcut files are updated, renew bash and ranger configs with new material:
-	autocmd BufWritePost ~/.scripts/folders,~/.scripts/configs !bash ~/.scripts/shortcuts.sh
+"	autocmd BufWritePre * %s/\s\+$//e
 
 " Disables automatic commenting on newline:
 	autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o

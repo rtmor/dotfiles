@@ -1,0 +1,46 @@
+{
+    "window.zoomLevel": 0,
+
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [":"],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        }
+    ],
+
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["Z", "Z"],
+            "commands": [
+                ":wq"
+            ]
+        }
+    ],
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "relative",
+    "editor.tabCompletion": "on",
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "iosevka",
+    "editor.fontFamily": "Iosevka Nerd Font Mono",
+    "window.menuBarVisibility": "toggle",
+    "editor.fontSize": 17,
+    "editor.fontLigatures": true,
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "rtmoran",
+    "workbench.activityBar.visible": false,
+    "workbench.enableExperiments": false,
+    "editor.acceptSuggestionOnEnter": "smart"
+}
+
+

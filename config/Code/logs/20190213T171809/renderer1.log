@@ -1,0 +1,10 @@
+[2019-02-13 17:18:13.016] [renderer1] [info] no standard startup: not the explorer viewlet
+[2019-02-13 17:23:16.809] [renderer1] [error] Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.: Error: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.
+    at new t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4498:509)
+    at e.reject (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4502:285)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4505:467
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-13 17:23:30.687] [renderer1] [error] Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.: Error: Unable to write into user settings. Please open the user settings to correct errors/warnings in it and try again.
+    at new t (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4498:509)
+    at e.reject (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4502:285)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4505:467

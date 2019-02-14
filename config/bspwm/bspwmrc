@@ -17,8 +17,11 @@ getcolors () {
 	CYAN=$(xrdb -query | grep 'color6:'| awk '{print $NF}')
 	WHITE=$(xrdb -query | grep 'color7:'| awk '{print $NF}')
 }
-xrdb ~/.Xresources
-COLOR=$(shuf -n1 -e ~/.colors/*)
+xrdb -load ~/.Xresources
+## RANDOM ##
+#COLOR=$(shuf -n1 -e ~/.colors/*)
+## STATIC ##
+COLOR="$HOME/.colors/nova"
 SHORTCOLOR=$(echo $COLOR | sed "s@.*/@@")
 xrdb -merge $COLOR
 paintee
@@ -39,6 +42,7 @@ bspc config border_width 1
 
 #Various settings
 bspc config gapless_monocle     true #Default setup uses negative padding, and gapless monocle looks really weird like that
+bspc config auto_cancel         true
 bspc adaptative_raise true
 bspc config borderless_monocle  true
 bspc config single_monocle false
@@ -51,6 +55,7 @@ bspc config remove_unplugged_monitors true
 #bspc config honor_size_hints true
 
 bspc config focus_follows_pointer true
+bspc config "pointer_action2" "resize_corner"
 #bspc config pointer_follows_focus true #Some keybindings automatically enable and disable this setting
 
 #Settings for manual splitting
@@ -119,7 +124,7 @@ bspc rule -a gnome-pie border=off manage=off
 bspc rule -a wpa_gui state=pseudo_tiled
 bspc rule -a libreoffice state=tiled
 bspc rule -a '*:libreofficedev' state=tiled
-bspc rule -a '*:soffice' state=tiled
+bspc rule -a '*:soffice' state=floating center=true
 #bspc rule -a firefox desktop=I
 #bspc rule -a calibre desktop=II
 #bspc rule -a geany desktop=II
@@ -148,7 +153,7 @@ bspc config external_rules_command /usr/bin/pseudo_automatic_mode
 #bspc config external_rules_command /usr/bin/adjust-new-window
 
 ##Autostart apps
-killall -9 sxhkd vanela xsettingsd dunst
+killall -9 sxhkd xsettingsd dunst
 sxhkd &
 xsettingsd &
 dunst \
@@ -158,6 +163,5 @@ dunst \
 
 #Source autostartfile. Uncomment this if you use bspwm-git
 . "$HOME/.config/bspwm/autostart" &
-#limepanel &
 . "$HOME/.config/polybar/launch.sh" &
 

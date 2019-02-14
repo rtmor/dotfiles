@@ -1,17 +1,25 @@
 #!/bin/bash
 
+run () {
+  if ! pgrep $1 ;
+  then
+    $@&
+  fi
+}
+
 sxhkd &
-nitrogen --restore; sleep 1; compton -b &
-xrdb merge .Xresources &
+nitrogen --restore; sleep 1; compton -b
+#xrdb -load /home/rtmoran/.Xresources &
 xrandr --output eDP1 --mode 1920x1080 &
-xfce4-power-manager &
+nitrogen --set-zoom-fill /usr/share/backgrounds/current.jpg &
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+run xfce4-power-manager &
 ff-theme-util &
 xinput --set-prop "SYNA2B31:00 06CB:7F8B Touchpad" "libinput Natural Scrolling Enabled" 1 &
 libinput-gestures-setup start &
-nitrogen --set-zoom-fill /usr/share/backgrounds/current.jpg &
 redshift &
 nohup davmail .davmail.properties &
-nohup sleep 10 && gcsf mount ~/rt.moran0@gmail.com -s rtmoran &
+#nohup sleep 10 && gcsf mount ~/rt.moran0@gmail.com -s rtmoran &
 calcurse-caldav --syncdb .calcurse/caldav/sync.db $
 pcmanfm -d &
 pulseaudio -D &
@@ -19,4 +27,6 @@ pulseeffects -l p3 --gapplication-service &
 pa-applet &
 pamac-tray &
 nm-applet &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+mpd &
+/usr/bin/bash -c "sleep 10 && $HOME/.config/scripts/gcsfconnect" &
+#run "mpd-notification -H 127.0.0.1 -m /home/rtmoran/Music/ -p 6650 -t 6" &

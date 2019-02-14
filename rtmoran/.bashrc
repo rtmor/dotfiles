@@ -69,11 +69,13 @@ if ${use_color} ; then
 		fi
 	fi
 
-	if [[ ${EUID} == 0 ]] ; then
-		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
-	else
-		PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
-	fi
+rightprompt()
+{
+   printf "%*s" $COLUMNS "$(hostname)"
+}
+
+PS1='\[$(tput sc; rightprompt; tput rc)\] \W »\[\e[35m\]»\[\e[m\]\[\e[34m\]»\[\e[m\] > '
+
 
 	alias ls='ls --color=auto'
 	alias grep='grep --colour=auto'

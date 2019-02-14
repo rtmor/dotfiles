@@ -25,7 +25,7 @@ margin-bottom = 0
 [colors]
 ;loosely based on: https://github.com/chriskempson/tomorrow-theme
 ;background = #cc1d1f21
-background = #cc343c48
+background = #cc3C4C55
 background-alt = #373b41
 
 foreground = ${xrdb:foreground:#222}
@@ -109,7 +109,7 @@ type = custom/text
 content = ${root.hostname}
 content-prefix = " "
 content-foreground = ${xrdb:color7:#222}
-content-background = ${xrdb:color9:#222}
+content-background = ${xrdb:color1:#222}
 content-padding = 2
 
 [module/xwindow]

@@ -1,0 +1,38 @@
+#!/bin/sh
+
+# -----------------------------------+
+# add directory to dotsync + gitdots +
+# -----------------------------------+
+
+usage () {
+      echo "+---------------------------+"
+      echo "+         dotadd            +"
+      echo "+---------------------------+"
+      echo " "
+      echo "Copies specified file/folder"
+      echo "to git Dotfiles and dotsync "
+      echo "  for easier maintenance    "
+      echo " "
+      echo "Usage: dotadd [filename/folder] "
+      echo " "
+      exit 1
+}
+
+if [[ ( $# == "--help") ||  $# == "-h" ]]; then
+   usage
+	exit 0
+fi
+
+if [  $# -eq 0 ]; then
+   usage
+   exit 1
+fi
+
+if [ "$(pwd)" == "$HOME" ]; then
+   BASE=rtmoran
+else
+   BASE=config
+fi
+
+sed -i "33i\cp -r $(pwd)/$1 $DOT_HOME/$BASE" $XDG_CONFIG_HOME/scripts/dotsync
+cp -r $(pwd)/$1 $DOT_HOME/$BASE

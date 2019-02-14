@@ -1,0 +1,27 @@
+{
+	"name": "mariana-nord",
+	"displayName": "Mariana Nord",
+	"description": "Hybrid theme between Sublime's Mariana and Nord.",
+	"version": "0.0.1",
+	"publisher": "LuisGalicia",
+	"engines": {
+		"vscode": "^1.21.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Mariana Nord",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Mariana Nord-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "f3da5699-8a4b-4b2e-b4d8-8f5c8cd67c09",
+		"publisherId": "d23c0487-5112-41f0-989c-0d2945f6642c",
+		"publisherDisplayName": "LuisGalicia"
+	}
+}

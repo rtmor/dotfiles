@@ -1,0 +1,132 @@
+ INFO  gcsf > Creating and populating file system...
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 121 files
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 234 files
+ INFO  gcsf                     > File sytem created.
+ INFO  gcsf                     > Mounting to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf                     > Mounted to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf > Creating and populating file system...
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 121 files
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 234 files
+ INFO  gcsf                     > File sytem created.
+ INFO  gcsf                     > Mounting to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf                     > Mounted to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ ERROR gcsf > Could not mount to /home/rtmoran/rt.moran0@gmail.com/: Transport endpoint is not connected (os error 107)
+ INFO  gcsf > Creating and populating file system...
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 121 files
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 234 files
+ INFO  gcsf                     > File sytem created.
+ INFO  gcsf                     > Mounting to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf                     > Mounted to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf > Creating and populating file system...
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 121 files
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 234 files
+ INFO  gcsf                     > File sytem created.
+ INFO  gcsf                     > Mounting to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf                     > Mounted to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.
+ INFO  gcsf > Creating and populating file system...
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 121 files
+ INFO  gcsf::gcsf::drive_facade > Received page 1 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 2 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 3 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 4 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 5 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 6 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 7 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 8 containing 460 files
+ INFO  gcsf::gcsf::drive_facade > Received page 9 containing 234 files
+ INFO  gcsf                     > File sytem created.
+ INFO  gcsf                     > Mounting to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf                     > Mounted to /home/rtmoran/rt.moran0@gmail.com/
+ INFO  gcsf::gcsf::file_manager > Checking for changes and possibly applying them.

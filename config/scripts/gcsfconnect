@@ -1,0 +1,23 @@
+#!/bin/bash
+
+check () {
+   for (( i = 15; i > 0; i-- )); do
+      if ping -q -c 1 -W 1 8.8.8.8 >/dev/null; then
+         main
+      else
+         sleep 5
+         continue
+         #check
+      fi
+   done
+   }
+
+main () {
+   fusermount -u /home/rtmoran/rt.moran0@gmail.com &
+   kill $(pgrep gcsf) &
+   nohup gcsf mount ~/rt.moran0@gmail.com/ -s rtmoran &
+   exit 0
+   }
+
+check
+

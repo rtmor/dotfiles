@@ -4,12 +4,16 @@
 
 # terminal emulator
 super + Return
-	urxvt
+   st
 
 # program launcher
 super + a
    rofia
 #   rofi -show run
+
+# morc menu
+super + z
+   morc_menu
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -18,7 +22,7 @@ super + Escape
 #
 # program binds
 super + r
-   urxvt -e 'ranger'
+   st -e 'ranger'
 
 Print
    i3-scrot
@@ -27,14 +31,14 @@ super + Print
    maim -s ~/Pictures/ScreenClip/$(date +%s).png
 
 super + m
-   urxvt -e neomutt
+   st -e neomutt
 
 
 # quit bspwm normally
 super + alt + Escape
 	bspc quit
 
-# close and kill
+# close
 super + x
 	bspc node -{c,k}
 
@@ -96,6 +100,13 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
+# Flip layout vertically/horizontally
+super + {_,shift + }a
+   bspc node @/ --flip {vertical,horizontal}
+
+#Rotate desktop
+super + e
+   bspc node @/ --rotate {90,-90}
 #
 # preselect
 #
@@ -138,6 +149,7 @@ super + alt + shift + {h,j,k,l}
 # move a floating window
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
+
 
 # audio
 XF86AudioRaiseVolume

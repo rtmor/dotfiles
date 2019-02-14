@@ -1,0 +1,37 @@
+{
+    "telemetry.machineId": "4fd368a50cab7edf1f493950ad5427e90b9ac12fca180ac55f52481aaf7b6541",
+    "theme": "vs-dark",
+    "themeBackground": "#3c4c55",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/home/rtmoran/Documents/Class/C++/Exercises",
+                "external": "file:///home/rtmoran/Documents/Class/C%2B%2B/Exercises",
+                "path": "/home/rtmoran/Documents/Class/C++/Exercises",
+                "scheme": "file"
+            },
+            "backupPath": "/home/rtmoran/.config/Code/Backups/21cdd2a67f366f5d9a95994bed1a8ab4",
+            "uiState": {
+                "mode": 0,
+                "x": 19,
+                "y": 46,
+                "width": 973,
+                "height": 1015
+            }
+        }
+    },
+    "pickerWorkingDir": "/home/rtmoran/.vscode/extensions/rtmoran-theme/tmtheme/themes",
+    "openedPathsList": {
+        "workspaces2": [
+            "file:///home/rtmoran/Documents/Class/C%2B%2B/Exercises"
+        ],
+        "files2": [
+            "file:///home/rtmoran/.vscode/extensions/rtmoran-theme/tmtheme/themes/rtmoran-color-theme.json",
+            "file:///home/rtmoran/Documents/Class/C%2B%2B/Exercises/2-30.cpp",
+            "file:///home/rtmoran/.config/Code/User/settings.json",
+            "file:///home/rtmoran/Documents/Class/C%2B%2B/Exercises/2-28.cpp"
+        ]
+    }
+}

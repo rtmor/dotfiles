@@ -1,0 +1,170 @@
+{
+	"name": "dainty-nord-vscode",
+	"displayName": "Dainty – Nord",
+	"description": "25 variations of slightly modified Nord",
+	"version": "1.0.1",
+	"publisher": "alexanderte",
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"scripts": {
+		"build": "node src/index.js",
+		"vscode:prepublish": "node src/prepublish.js",
+		"publish": "vsce publish --yarn"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexanderte/dainty-nord-vscode"
+	},
+	"icon": "assets/logo-icon.png",
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"scheme",
+		"color",
+		"dainty",
+		"nord",
+		"dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dainty – Nord (chroma 0, lightness 0)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-0-0.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 0, lightness 1)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-0-1.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 0, lightness 2)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-0-2.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 0, lightness 3)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-0-3.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 0, lightness 4)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-0-4.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 1, lightness 0)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-1-0.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 1, lightness 1)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-1-1.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 1, lightness 2)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-1-2.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 1, lightness 3)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-1-3.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 1, lightness 4)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-1-4.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 2, lightness 0)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-2-0.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 2, lightness 1)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-2-1.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 2, lightness 2)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-2-2.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 2, lightness 3)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-2-3.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 2, lightness 4)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-2-4.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 3, lightness 0)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-3-0.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 3, lightness 1)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-3-1.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 3, lightness 2)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-3-2.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 3, lightness 3)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-3-3.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 3, lightness 4)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-3-4.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 4, lightness 0)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-4-0.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 4, lightness 1)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-4-1.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 4, lightness 2)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-4-2.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 4, lightness 3)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-4-3.json"
+			},
+			{
+				"label": "Dainty – Nord (chroma 4, lightness 4)",
+				"uiTheme": "vs-dark",
+				"path": "./dist/dainty-nord-4-4.json"
+			}
+		]
+	},
+	"dependencies": {
+		"change-case": "3.0.2",
+		"dainty-shared": "3.1.0-0bca99f",
+		"minimist": "1.2.0"
+	},
+	"__metadata": {
+		"id": "d552ab0d-8ae8-4f3d-b101-9e73a5cead1a",
+		"publisherId": "8fd32a64-6d85-4818-ac27-a0a61ee9f612",
+		"publisherDisplayName": "Alexander Teinum"
+	}
+}

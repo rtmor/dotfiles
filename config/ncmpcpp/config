@@ -11,7 +11,7 @@
 ## ncmpcpp.
 ##
 #
-ncmpcpp_directory = ~/.config/ncmpcpp
+ncmpcpp_directory = /home/rtmoran/.config/ncmpcpp
 #
 ##
 ## Directory for storing downloaded lyrics. It defaults to ~/.lyrics since other
@@ -22,9 +22,9 @@ ncmpcpp_directory = ~/.config/ncmpcpp
 #
 ##### connection settings #####
 #
-mpd_host = "localhost"
+mpd_host = "127.0.0.1"
 #
-mpd_port = "6600"
+mpd_port = "6650"
 #
 #mpd_connection_timeout = 5
 #

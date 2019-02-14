@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Clear pacman orhpan files
+sudo pacman -Rns $(pacman -Qtdq)
