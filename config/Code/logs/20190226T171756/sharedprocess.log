@@ -1,0 +1,67 @@
+[2019-02-26 17:18:00.066] [sharedprocess] [info] main {"machineId":"4fd368a50cab7edf1f493950ad5427e90b9ac12fca180ac55f52481aaf7b6541"}
+[2019-02-26 17:18:00.170] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:18:00.185] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:18:00.197] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:18:00.199] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-26 17:18:00.201] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-26 17:18:00.204] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-26 17:18:00.561] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:18:01.569] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-02-26 17:18:01.584] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:18:02.003] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/06a201b5-e075-4c2e-b5bd-4a74df622187
+[2019-02-26 17:18:02.919] [sharedprocess] [info] Extracted extension to /home/rtmoran/.vscode/extensions/.vscodevim.vim-1.1.0: vscodevim.vim
+[2019-02-26 17:18:02.919] [sharedprocess] [info] Renamed to /home/rtmoran/.vscode/extensions/vscodevim.vim-1.1.0
+[2019-02-26 17:18:02.921] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-02-26 17:18:02.931] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim
+[2019-02-26 17:18:40.073] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-02-26 17:20:35.234] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:20:35.249] [sharedprocess] [info] Scanned system extensions: 71
+[2019-02-26 17:23:00.596] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:28:00.632] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:33:00.666] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:38:00.704] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:43:00.740] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:48:00.778] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:53:00.819] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 17:58:00.855] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:03:00.894] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:08:00.933] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:13:00.971] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:18:01.124] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:23:01.165] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:37:12.622] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:42:12.652] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:47:12.676] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:52:12.706] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 18:57:12.730] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:02:12.757] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:07:12.793] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:12:12.826] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:17:12.857] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:22:13.029] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:27:13.053] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:32:13.082] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:37:13.116] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:42:13.154] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:47:13.192] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:52:13.225] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 19:57:13.273] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:02:13.309] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:07:13.342] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:12:13.372] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:17:13.406] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:22:13.560] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:27:13.589] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:32:13.625] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:37:13.662] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:42:13.691] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-26 20:47:13.720] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 14:44:05.597] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 14:49:05.629] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 14:54:05.662] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 14:59:05.686] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 15:04:05.715] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 15:09:05.745] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 18:01:54.042] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 18:06:54.072] [sharedprocess] [info] Scanned user extensions: 11
+[2019-02-27 18:11:54.103] [sharedprocess] [info] Scanned user extensions: 11

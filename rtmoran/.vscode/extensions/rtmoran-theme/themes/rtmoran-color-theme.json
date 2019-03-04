@@ -24,14 +24,14 @@
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#9A93E1"
+				"foreground": "#C5D4DD"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#9A93E1"
+				"foreground": "#C5D4DD"
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#9A93E1"
+				"foreground": "#C5D4DD"
 			}
 		},
 		{
@@ -131,7 +131,40 @@
 			}
 		},
 		{
+			"name": "Library constant",		{
+			"name": "Library function",
+			"scope": "support.function",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#83AFE5"
+			}
+		},
+		{
 			"name": "Library constant",
+			"scope": "support.constant",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#83AFE5"
+			}
+		},
+		{
+			"name": "Library class/type",
+			"scope": [
+				"support.type",
+				"support.class"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#83AFE5"
+			}
+		},
+		{
+			"name": "Library variable",
+			"scope": "support.other.variable",
+			"settings": {
+				"fontStyle": ""
+			}
+		},
 			"scope": "support.constant",
 			"settings": {
 				"fontStyle": "",
@@ -169,7 +202,7 @@
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#9A93E1",
+				"background": "#C5D4DD",
 				"foreground": "#E6EEF3"
 			}
 		}
@@ -185,6 +218,63 @@
 		"editorSuggestWidget.background": "#556873",
 		"editorSuggestWidget.border": "#556873",
 		"editorSuggestWidget.selectedBackground": "#6A7D89",
+      "focusBorder" : "#C5D4DD",
+      "tab.activeBackground" : "#556873",
+      "tab.activeForeground" : "#E6EEF3",
+      "tab.inactiveBackground" : "#3C4C55",
+      "tab.inactiveForeground" : "#C5D4DD",
+      "tab.border" : "#3C4C55",
+      "tab.activeBorderTop" : "#3C4C55",
+      "tab.unfocusedActiveBorderTop" : "#C5D4DD",
+      "tab.hoverBackground" : "#6A7D89",
+      "editorGroupHeader.tabsBorder" : "#6A7D89",
+      "tab.activeModifiedBorder" : "#F2C38F",
+      "tab.inactiveModifiedBorder" : "#F2C38F",
+      "tab.unfocusedActiveModifiedBorder" : "#f2C38F",
+      "tab.unfocusedInactiveModifiedBorder" : "#f2C38F",
+      "editorGroupHeader.tabsBackground" : "#3C4C55",
+      "titleBar.activeBackground" : "#3C4C55",
+      "titleBar.activeForeground" : "#E6EEF3",
+      "titleBar.inactiveBackground" : "#3C4C55",
+      "titleBar.inactiveForeground" : "#C5D4DD",
+      "menu.background" : "#3C4C55",
+      "menu.selectionBackground" : "#556873",
+      "terminal.ansiBrightMagenta" : "#9A93E1",
+      "terminal.ansiMagenta" : "#9A93E1",
+      "peekViewEditor.background" : "#1E272C",
+      "inputValidation.infoBackground" : "#6A7D89",
+      "dropdown.background" : "#6A7D89",
+      "dropdown.foreground" : "#C5D4DD",
+      "dropdown.listBackground" : "#3C4C55",
+      "dropdown.border" : "#3C4C55",
+      "list.dropBackground" : "#3C4C55",
+      "list.focusBackground" : "#6A7D89",
+      "list.hoverBackground" : "#6A7D89",
+      "list.focusForeground" : "#C5D4DD",
+      "list.highlightForeground" : "#C5D4DD",
+      "list.inactiveSelectionForeground" : "#C5D4DD",
+      "listFilterWidget.outline" : "#C5D4DD",
+      "activityBar.background" : "#1E272C",
+      "editorHoverWidget.background" : "#3C4C55",
+      "panel.dropBackground" : "#3C4C55",
+      "panel.border" : "#C5D4DD",
+      "panelTitle.activeBorder" : "#C5D4DD",
+      "notifications.background" : "#6A7D89",
+      "settings.dropdownBorder" : "#1E272C",
+      "breadcrumb.background" : "#3C4C55",
+      "sideBar.background" : "#556873",
+      "sideBar.border" : "#3C4C55",
+      "sideBarSectionHeader.background" : "#899BA6",
+      "input.border" : "#C5D4DD",
+      "inputOption.activeBorder" : "#C5D4DD",
+      "inputValidation.infoBorder" : "#C5D4DD",
+      "inputValidation.errorBackground" : "#DF8C8C",
+      "inputValidation.warningBackground" : "#DF8C8C",
+      "activityBar.background" : "#556873",
+      "activityBar.border" : "#3C4C55",
+
+
+
 	},
 	"name": "rtmoran"
 }

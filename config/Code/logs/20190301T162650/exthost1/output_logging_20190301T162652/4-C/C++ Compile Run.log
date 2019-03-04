@@ -1,0 +1,1595 @@
+[source.cpp 2019-03-01 22:12:41.513]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:59:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:12:41.514]
+source.cpp: In function ‘int maint()’:
+source.cpp:17:1: warning: no return statement in function returning non-void [-Wreturn-type]
+ }
+ ^
+
+[source.cpp 2019-03-01 22:12:41.624]
+/usr/bin/ld: /usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../..
+[source.cpp 2019-03-01 22:12:41.624]
+/../../lib/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+/usr/bin/ld: /tmp/ccAhJr7m.o: in function `maint()':
+source.cpp:(.text+0x10d): undefined reference to `Invoice::Invoice(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int)'
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-01 22:13:30.103]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:59:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:13:30.188]
+/usr/bin/ld: /tmp/cc3vmbzz.o: in function `main':
+source.cpp:(.text+0x10d): undefined reference to `Invoice:
+[source.cpp 2019-03-01 22:13:30.188]
+:Invoice(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int)'
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-01 22:18:48.828]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:59:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:18:48.913]
+/usr/bin/ld: /tmp/cctB48xD.o: in function `main':
+source.cpp:(.text+0x10d): undefined reference to `Invoice::Invoice(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>
+[source.cpp 2019-03-01 22:18:48.913]
+, std::allocator<char> >, int, int)'
+collect2: error: ld returned 1 exit status
+
+[invoice.h 2019-03-01 22:21:51.412]
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:63:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:22:15.801]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:63:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:22:15.912]
+/usr/bin/ld: /tmp/cc6SSWL4.o: in function `main'
+[source.cpp 2019-03-01 22:22:15.912]
+:
+source.cpp:(.text+0x10d): undefined reference to `Invoice::Invoice(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, int)'
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-01 22:25:33.758]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:68:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[invoice.h 2019-03-01 22:27:41.521]
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:68:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:27:47.027]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:68:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:29:14.559]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:68:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:30:12.429]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:68:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:33:23.674]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:65:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:39:17.029]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:69:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:41:50.334]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:61:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:48:48.920]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:61:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:50:59.688]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:61:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:54:36.234]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:66:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:56:31.776]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:65:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-01 22:58:37.422]
+In file included from source.cpp:3:
+invoice.h: In member function ‘int Invoice::getInvoiceAmount()’:
+invoice.h:62:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+
+[source.cpp 2019-03-02 01:40:00.407]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:41:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:40:00.407]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:51:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:42:27.137]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:41:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:42:27.138]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:53:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[Employee.h 2019-03-02 01:45:52.744]
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:42:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[Employee.h 2019-03-02 01:45:52.745]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:55:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:01.740]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:42:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:01.741]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:55:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:36.851]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:42:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:36.852]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:55:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:44.724]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:42:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:46:44.725]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:55:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:49:37.226]
+In file included from source.cpp:5:
+Employee.h: In member function ‘int Employee::getYearlySalary()’:
+Employee.h:42:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 01:49:37.227]
+Employee.h: In member function ‘int Employee::getRaise()’:
+Employee.h:55:9: warning: no return statement in function returning non-void [-Wreturn-type]
+         }
+         ^
+
+[source.cpp 2019-03-02 02:11:35.791]
+In file included from source.cpp:4:
+Date.h: In member function ‘void Date::setMonth(int)’:
+Date.h:17:29: warning: comparison of constant ‘12’ with boolean expression is always true [-Wbool-compare]
+             if (1 <= iMonth <= 12) {
+                 ~~~~~~~~~~~~^~~~~
+Date.h:17:19: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+             if (1 <= iMonth <= 12) {
+                 ~~^~~~~~~~~
+
+[source.cpp 2019-03-02 02:12:00.014]
+In file included from source.cpp:4:
+Date.h: In member function ‘void Date::setMonth(int)’:
+Date.h:17:29: warning: comparison of constant ‘12’ with boolean expression is always true [-Wbool-compare]
+             if (1 <= iMonth <= 12) {
+                 ~~~~~~~~~~~~^~~~~
+Date.h:17:19: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+             if (1 <= iMonth <= 12) {
+                 ~~^~~~~~~~~
+
+[Date.h 2019-03-02 02:12:32.119]
+Date.h: In member function ‘void Date::setMonth(int)’:
+Date.h:17:29: warning: comparison of constant ‘12’ with boolean expression is always true [-Wbool-compare]
+             if (1 <= iMonth <= 12) {
+                 ~~~~~~~~~~~~^~~~~
+Date.h:17:19: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+             if (1 <= iMonth <= 12) {
+                 ~~^~~~~~~~~
+
+[source.cpp 2019-03-02 02:12:44.610]
+In file included from source.cpp:4:
+Date.h: In member function ‘void Date::setMonth(int)’:
+Date.h:17:29: warning: comparison of constant ‘12’ with boolean expression is always true [-Wbool-compare]
+             if (1 <= iMonth <= 12) {
+                 ~~~~~~~~~~~~^~~~~
+Date.h:17:19: warning: comparisons like ‘X<=Y<=Z’ do not have their mathematical meaning [-Wparentheses]
+             if (1 <= iMonth <= 12) {
+                 ~~^~~~~~~~~
+
+[source.cpp 2019-03-03 00:38:27.704]
+/usr/bin/ld: /tmp/ccK8haTj.o: in function `main':
+source.cpp:(.text+0x58): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xba): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator
+[source.cpp 2019-03-03 00:38:27.704]
+<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x104): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x134): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x179): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1a9): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x234): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2a6): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2d2): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x302): undefined
+[source.cpp 2019-03-03 00:38:27.704]
+ reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x347): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x377): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.
+[source.cpp 2019-03-03 00:38:27.704]
+text+0x402): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x474): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4a0): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4d0): undefined reference to `Account::getBalance()
+[source.cpp 2019-03-03 00:38:27.704]
+'
+/usr/bin/ld: source.cpp:(.text+0x515): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x545): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 00:38:27.704]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 00:38:53.742]
+/usr/bin/ld: /tmp/ccWzaQPb.o: in function `main':
+source.cpp:(.text+0x58): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xba): undefined reference to `Account::Account(std::__cxx11::basic_string<
+[source.cpp 2019-03-03 00:38:53.743]
+char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x104): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x134): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x179): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1a9): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x234): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2a6): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2d2): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/
+[source.cpp 2019-03-03 00:38:53.743]
+bin/ld: source.cpp:(.text+0x302): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x347): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x377): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x402): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x474): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4a0): undefined reference to `Account::getName[abi:cxx11]()
+[source.cpp 2019-03-03 00:38:53.743]
+'
+/usr/bin/ld: source.cpp:(.text+0x4d0): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x515): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x545): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 00:38:53.743]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 00:43:15.736]
+/usr/bin/ld: /tmp/ccRIVkoz.o: in function `main':
+source.cpp:(.text+0x58): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xba): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
+[source.cpp 2019-03-03 00:43:15.736]
+, int)'
+/usr/bin/ld: source.cpp:(.text+0x104): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x134): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x179): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1a9): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x234): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2a6): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2d2): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x302): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x347): undefined reference to `Account::getName[abi
+[source.cpp 2019-03-03 00:43:15.736]
+:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x377): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x402): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x474): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4a0): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4d0): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x515): undefined reference 
+[source.cpp 2019-03-03 00:43:15.736]
+to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x545): undefined reference to `Account::getBalance()'
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 00:48:42.230]
+/usr/bin/ld: /tmp/cc2cfFc2.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >
+[source.cpp 2019-03-03 00:48:42.230]
+, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to 
+[source.cpp 2019-03-03 00:48:42.230]
+`Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `
+[source.cpp 2019-03-03 00:48:42.230]
+Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 00:48:42.231]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 00:52:17.581]
+In file included from source.cpp:4:
+car.h:4:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:5:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:52:17.582]
+car.h:6:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:7:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:52:17.582]
+car.h:8:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:9:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:52:17.583]
+car.h:10:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:52:17.583]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:52:17.583]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:52:17.584]
+car.h:20:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:52:17.586]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[car.cpp 2019-03-03 00:52:47.366]
+In file included from car.cpp:1:
+car.h:4:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:5:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[car.cpp 2019-03-03 00:52:47.366]
+car.h:6:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:7:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[car.cpp 2019-03-03 00:52:47.367]
+car.h:8:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:9:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[car.cpp 2019-03-03 00:52:47.367]
+car.h:10:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[car.cpp 2019-03-03 00:52:47.367]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[car.cpp 2019-03-03 00:52:47.367]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[car.cpp 2019-03-03 00:52:47.368]
+car.h:20:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[car.cpp 2019-03-03 00:52:47.496]
+car.cpp:10:1: error: no declaration matches ‘Car::Car(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int, int)’
+ Car::Car(string cMake,string cModel,string cColor,int cYear,int cMileage)  // constructor (same name as class)
+ ^~~
+
+[car.cpp 2019-03-03 00:52:47.498]
+In file included from car.cpp:1:
+car.h:1:7: note: candidates are: ‘constexpr Car::Car(Car&&)’
+ class Car {
+       ^~~
+car.h:1:7: note:                 ‘constexpr Car::Car(const Car&)’
+
+[car.cpp 2019-03-03 00:52:47.498]
+car.cpp:6:1: note:                 ‘Car::Car()’
+ Car::Car() {
+ ^~~
+In file included from car.cpp:1:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+car.cpp:20:6: error: no declaration matches ‘void Car::setMake(std::__cxx11::string)’
+ void Car::setMake(string cMake) // cMake (carMake gets applied to variable make)
+      ^~~
+In file included from car.cpp:1:
+car.h:5:10: note: candidate is: ‘void Car::setMake(int)’
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+          ^~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+car.cpp:24:8: error: no declaration matches ‘std::__cxx11::string Car::getMake()’
+ string Car::getMake()
+        ^~~
+car.cpp:24:8: note: no functions named ‘std::__cxx11::string Car::getMake()’
+In file included from car.cpp:1:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+
+[car.cpp 2019-03-03 00:52:47.498]
+car.cpp:29:6: error: no declaration matches ‘void Car::setModel(std::__cxx11::string)’
+ void Car::setModel(string cModel)
+      ^~~
+In file included from car.cpp:1:
+car.h:7:10: note: candidate is: ‘void Car::setModel(int)’
+     void setModel(string cModel);
+          ^~~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+car.cpp:33:8: error: no declaration matches ‘std::__cxx11::string Car::getModel()’
+ string Car::getModel()
+        ^~~
+car.cpp:33:8: note: no functions named ‘std::__cxx11::string Car::getModel()’
+In file included from car.cpp:1:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+car.cpp:38:6: error: no declaration matches ‘void Car::setColor(std::__cxx11::string)’
+ void Car::setColor(string cColor)
+      ^~~
+In file included from car.cpp:1:
+car.h:9:10: note: candidate is: ‘void Car::setColor(int)’
+     void setColor(string cColor);
+          ^~~~~~~~
+
+[car.cpp 2019-03-03 00:52:47.498]
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+car.cpp:42:8: error: no declaration matches ‘std::__cxx11::string Car::getColor()’
+ string Car::getColor()
+        ^~~
+car.cpp:42:8: note: no functions named ‘std::__cxx11::string Car::getColor()’
+In file included from car.cpp:1:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car {
+       ^~~
+
+[car.cpp 2019-03-03 00:52:47.498]
+car.cpp: In member function ‘void Car::printCar()’:
+car.cpp:67:13: error: ‘make’ was not declared in this scope
+     cout << make << endl;
+             ^~~~
+
+[car.cpp 2019-03-03 00:52:47.499]
+car.cpp:68:13: error: ‘model’ was not declared in this scope
+     cout << model << endl;
+             ^~~~~
+
+[car.cpp 2019-03-03 00:52:47.499]
+car.cpp:68:13: note: suggested alternative: ‘mode_t’
+     cout << model << endl;
+             ^~~~~
+             mode_t
+
+[car.cpp 2019-03-03 00:52:47.500]
+car.cpp:69:13: error: ‘color’ was not declared in this scope
+     cout << color << endl;
+             ^~~~~
+
+[source.cpp 2019-03-03 00:53:10.092]
+In file included from source.cpp:4:
+car.h:4:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:5:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:53:10.092]
+car.h:6:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:7:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:53:10.093]
+car.h:8:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:9:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:53:10.093]
+car.h:10:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:53:10.094]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+car.h:20:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:53:10.096]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 00:54:17.404]
+In file included from source.cpp:4:
+car.h:3:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:4:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:54:17.404]
+car.h:5:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:6:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:54:17.405]
+car.h:7:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:8:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:54:17.405]
+car.h:9:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:17.406]
+car.h:17:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:17.406]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:17.406]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:17.414]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 00:54:40.422]
+In file included from source.cpp:4:
+car.h:3:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:4:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:54:40.422]
+car.h:5:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:6:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:54:40.423]
+car.h:7:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:8:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:54:40.423]
+car.h:9:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:40.423]
+car.h:17:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:40.424]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:40.424]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:54:40.426]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 00:55:28.335]
+In file included from source.cpp:4:
+car.h:3:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:4:18: error: ‘string’ has not been declared
+     void setMake(string); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:55:28.336]
+car.h:5:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:6:19: error: ‘string’ has not been declared
+     void setModel(string);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:55:28.337]
+car.h:7:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:8:19: error: ‘string’ has not been declared
+     void setColor(string);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:55:28.337]
+car.h:9:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:55:28.338]
+car.h:17:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:55:28.338]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:55:28.338]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:55:28.341]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 00:55:28.341]
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 00:56:26.545]
+In file included from source.cpp:4:
+car.h:4:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:5:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 00:56:26.546]
+car.h:6:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:7:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:56:26.546]
+car.h:8:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:9:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 00:56:26.546]
+car.h:10:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:56:26.547]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:56:26.547]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:56:26.547]
+car.h:20:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 00:56:26.550]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 01:02:14.172]
+In file included from source.cpp:4:
+car.h:4:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:5:18: error: ‘string’ has not been declared
+     void setMake(string); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-03-03 01:02:14.173]
+car.h:6:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:7:19: error: ‘string’ has not been declared
+     void setModel(string);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 01:02:14.173]
+car.h:8:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:9:19: error: ‘string’ has not been declared
+     void setColor(string);
+                   ^~~~~~
+
+[source.cpp 2019-03-03 01:02:14.173]
+car.h:10:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 01:02:14.174]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 01:02:14.174]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 01:02:14.175]
+car.h:20:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-03-03 01:02:14.191]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:3:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:3:5: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car {
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-03-03 01:04:45.324]
+In file included from source.cpp:8:
+Account.h:9:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:04:45.324]
+Account.h:23:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:04:45.325]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+
+[source.cpp 2019-03-03 01:04:45.325]
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:04:45.325]
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:07:58.404]
+In file included from source.cpp:8:
+Account.h:10:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:07:58.405]
+Account.h:24:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:07:58.405]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+
+[source.cpp 2019-03-03 01:07:58.405]
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account();
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:07:58.405]
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account();
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+
+[source.cpp 2019-03-03 01:07:58.405]
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:09:02.895]
+In file included from source.cpp:8:
+Account.h:9:12: error: expected ‘;’ at end of member declaration
+    Account()
+            ^
+             ;
+Account.h:10:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:09:02.895]
+Account.h:24:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:09:02.895]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account()
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:09:02.896]
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+
+[source.cpp 2019-03-03 01:09:02.896]
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account()
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:09:37.147]
+In file included from source.cpp:8:
+Account.h:10:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:09:37.148]
+Account.h:24:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:09:37.148]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+
+[source.cpp 2019-03-03 01:09:37.148]
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account();
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:09:37.148]
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+In file included from source.cpp:8:
+Account.h:9:4: note: candidate: ‘Account::Account()’
+    Account();
+    ^~~~~~~
+Account.h:9:4: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:10:31.162]
+In file included from source.cpp:8:
+Account.h:9:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:10:31.163]
+Account.h:23:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:10:31.163]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+
+[source.cpp 2019-03-03 01:10:31.163]
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:10:31.165]
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:12:28.719]
+In file included from source.cpp:8:
+Account.h:9:18: error: expected ‘)’ before ‘,’ token
+    Account(string,int);
+           ~      ^
+                  )
+
+[source.cpp 2019-03-03 01:12:28.720]
+Account.h:23:4: error: ‘string’ does not name a type; did you mean ‘stdin’?
+    string accountName;
+    ^~~~~~
+    stdin
+
+[source.cpp 2019-03-03 01:12:28.720]
+source.cpp: In function ‘int main()’:
+source.cpp:14:37: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account1{"Jane Green", 50};
+                                     ^
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+source.cpp:15:36: error: no matching function for call to ‘Account::Account(<brace-enclosed initializer list>)’
+    Account account2{"John Blue", -7};
+                                    ^
+In file included from source.cpp:8:
+Account.h:6:7: note: candidate: ‘Account::Account()’
+ class Account {
+       ^~~~~~~
+Account.h:6:7: note:   candidate expects 0 arguments, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(const Account&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+Account.h:6:7: note: candidate: ‘Account::Account(Account&&)’
+Account.h:6:7: note:   candidate expects 1 argument, 2 provided
+
+[source.cpp 2019-03-03 01:13:23.123]
+/usr/bin/ld: /tmp/ccokjUnJ.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>
+[source.cpp 2019-03-03 01:13:23.123]
+, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin
+[source.cpp 2019-03-03 01:13:23.123]
+/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.
+[source.cpp 2019-03-03 01:13:23.124]
+text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 01:13:23.124]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 01:14:01.752]
+/usr/bin/ld: /tmp/cceBUtvZ.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::
+[source.cpp 2019-03-03 01:14:01.753]
+__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int
+[source.cpp 2019-03-03 01:14:01.753]
+)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference
+[source.cpp 2019-03-03 01:14:01.753]
+ to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): 
+[source.cpp 2019-03-03 01:14:01.753]
+undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 01:14:01.753]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 01:19:00.255]
+/usr/bin/ld: /tmp/ccZl1ITp.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>
+[source.cpp 2019-03-03 01:19:00.255]
+ >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:
+[source.cpp 2019-03-03 01:19:00.255]
+(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to
+[source.cpp 2019-03-03 01:19:00.255]
+ `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp
+[source.cpp 2019-03-03 01:19:00.255]
+:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 01:19:00.255]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 01:19:44.660]
+/usr/bin/ld: /tmp/ccMGOg6X.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference 
+[source.cpp 2019-03-03 01:19:44.661]
+to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5
+[source.cpp 2019-03-03 01:19:44.661]
+): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/
+[source.cpp 2019-03-03 01:19:44.661]
+usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld:
+[source.cpp 2019-03-03 01:19:44.661]
+ source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]
+[source.cpp 2019-03-03 01:19:44.661]
+()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 01:19:44.661]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 01:19:50.756]
+/usr/bin/ld: /tmp/ccdGNFNv.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std:
+[source.cpp 2019-03-03 01:19:50.757]
+:__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int
+[source.cpp 2019-03-03 01:19:50.757]
+)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld
+[source.cpp 2019-03-03 01:19:50.757]
+: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined 
+[source.cpp 2019-03-03 01:19:50.757]
+reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 01:19:50.757]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 01:19:53.674]
+/usr/bin/ld: /tmp/ccSpYCBE.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char
+[source.cpp 2019-03-03 01:19:53.675]
+>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c)
+[source.cpp 2019-03-03 01:19:53.675]
+: undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference 
+[source.cpp 2019-03-03 01:19:53.675]
+to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+collect2: error: ld returned 1 exit status
+

@@ -1,0 +1,18 @@
+[2019-02-23 21:19:12.958] [exthost] [info] extension host started
+[2019-02-23 21:19:13.062] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-02-23 21:19:13.062] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-02-23 21:19:13.065] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-02-23 21:19:13.065] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-02-23 21:19:13.068] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-02-23 21:19:13.068] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-02-23 21:19:13.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-02-23 21:19:13.092] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-02-23 21:19:13.096] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"activationEvent":"*"}
+[2019-02-23 21:19:13.096] [exthost] [info] ExtensionService#loadCommonJSModule /home/rtmoran/.vscode/extensions/vscodevim.vim-1.0.8/out/extension
+[2019-02-23 21:19:13.353] [exthost] [info] ExtensionService#_doActivateExtension austin.code-gnu-global {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2019-02-23 21:19:13.353] [exthost] [info] ExtensionService#loadCommonJSModule /home/rtmoran/.vscode/extensions/austin.code-gnu-global-0.2.2/out/src/extension
+[2019-02-23 21:19:13.363] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"activationEvent":"onLanguage:cpp"}
+[2019-02-23 21:19:13.363] [exthost] [info] ExtensionService#loadCommonJSModule /home/rtmoran/.vscode/extensions/ms-vscode.cpptools-0.21.0/out/src/main
+[2019-02-23 21:19:13.495] [exthost] [info] eager extensions activated
+[2019-02-23 21:25:16.075] [exthost] [info] ExtensionService#_doActivateExtension danielpinto8zz6.c-cpp-compile-run {"startup":false,"activationEvent":"onCommand:extension.CompileRun"}
+[2019-02-23 21:25:16.075] [exthost] [info] ExtensionService#loadCommonJSModule /home/rtmoran/.vscode/extensions/danielpinto8zz6.c-cpp-compile-run-0.4.3/out/extension

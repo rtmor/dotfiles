@@ -1,0 +1,93 @@
+[feb-19-1.cpp 2019-02-26 23:52:56.662]
+feb-19-1.cpp:4:10: fatal error: car.h: No such file or directory
+ #include "car.h"
+          ^~~~~~~
+compilation terminated.
+
+[feb-19-1.cpp 2019-02-26 23:53:50.125]
+feb-19-1.cpp:4:10: fatal error: header/car.h: No such file or directory
+ #include "header/car.h"
+          ^~~~~~~~~~~~~~
+compilation terminated.
+
+[source.cpp 2019-02-27 01:40:39.509]
+In file included from source.cpp:4:
+car.h:3:15: error: expected ‘)’ before ‘,’ token
+     Car(string,string,string,int,int);  // constructor (same name as class)
+        ~      ^
+               )
+car.h:4:18: error: ‘string’ has not been declared
+     void setMake(string cMake); // cMake (carMake gets applied to variable make)
+                  ^~~~~~
+
+[source.cpp 2019-02-27 01:40:39.509]
+car.h:5:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getMake();
+     ^~~~~~
+     stdin
+car.h:6:19: error: ‘string’ has not been declared
+     void setModel(string cModel);
+                   ^~~~~~
+
+[source.cpp 2019-02-27 01:40:39.509]
+car.h:7:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getModel();
+     ^~~~~~
+     stdin
+car.h:8:19: error: ‘string’ has not been declared
+     void setColor(string cColor);
+                   ^~~~~~
+
+[source.cpp 2019-02-27 01:40:39.510]
+car.h:9:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string getColor();
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-02-27 01:40:39.510]
+car.h:17:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string make;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-02-27 01:40:39.510]
+car.h:18:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string model;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-02-27 01:40:39.511]
+car.h:19:5: error: ‘string’ does not name a type; did you mean ‘stdin’?
+     string color;
+     ^~~~~~
+     stdin
+
+[source.cpp 2019-02-27 01:40:39.512]
+source.cpp: In function ‘int main()’:
+source.cpp:15:52: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear,cMileage};
+                                                    ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {// second CONSTRUCTOR with different parameter list (1 parameters)
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+
+[source.cpp 2019-02-27 01:40:39.512]
+source.cpp:18:54: error: no matching function for call to ‘Car::Car(const char [11], const char [7], const char [5], int, int)’
+     Car myCar("Volkswagen","Passat","Grey",2017,24000);  // calling instance of an object (myCar)
+                                                      ^
+In file included from source.cpp:4:
+car.h:1:7: note: candidate: ‘Car::Car()’
+ class Car {// second CONSTRUCTOR with different parameter list (1 parameters)
+       ^~~
+car.h:1:7: note:   candidate expects 0 arguments, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 5 provided
+

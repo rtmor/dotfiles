@@ -1,0 +1,84 @@
+[feb-19-1.cpp 2019-02-20 01:00:11.828]
+feb-19-1.cpp: In member function ‘void Car::setMake(std::__cxx11::string)’:
+feb-19-1.cpp:11:21: error: expected ‘;’ before ‘}’ token
+         make = cMake
+                     ^
+                     ;
+     }
+     ~                
+
+[feb-19-1.cpp 2019-02-20 01:12:55.336]
+feb-19-1.cpp: In member function ‘void Car::setYear(std::__cxx11::string)’:
+feb-19-1.cpp:38:16: error: cannot convert ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘int’ in assignment
+         year = cYear;
+                ^~~~~
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getYear()’:
+feb-19-1.cpp:42:16: error: could not convert ‘((Car*)this)->Car::year’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return year;
+                ^~~~
+feb-19-1.cpp: In member function ‘void Car::setMileage(std::__cxx11::string)’:
+feb-19-1.cpp:47:19: error: cannot convert ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’} to ‘int’ in assignment
+         mileage = cMileage;
+                   ^~~~~~~~
+
+[feb-19-1.cpp 2019-02-20 01:12:55.336]
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getMileage()’:
+feb-19-1.cpp:51:16: error: could not convert ‘((Car*)this)->Car::mileage’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return mileage;
+                ^~~~~~~
+
+[feb-19-1.cpp 2019-02-20 01:12:55.338]
+feb-19-1.cpp: In function ‘int main()’:
+feb-19-1.cpp:75:27: error: expected ‘;’ before ‘myCar’
+     myCar.setColor("Gray")
+                           ^
+                           ;
+     myCar.setYear(2017);
+     ~~~~~                  
+feb-19-1.cpp:77:26: error: no matching function for call to ‘Car::setMileage(int)’
+     myCar.setMileage(2400);
+                          ^
+feb-19-1.cpp:45:10: note: candidate: ‘void Car::setMileage(std::__cxx11::string)’
+     void setMileage(string cMileage) // cMake (carMake gets applied to variable make)
+          ^~~~~~~~~~
+
+[feb-19-1.cpp 2019-02-20 01:12:55.338]
+feb-19-1.cpp:45:10: note:   no known conversion for argument 1 from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+
+[feb-19-1.cpp 2019-02-20 01:13:27.795]
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getYear()’:
+feb-19-1.cpp:42:16: error: could not convert ‘((Car*)this)->Car::year’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return year;
+                ^~~~
+
+[feb-19-1.cpp 2019-02-20 01:13:27.795]
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getMileage()’:
+feb-19-1.cpp:51:16: error: could not convert ‘((Car*)this)->Car::mileage’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return mileage;
+                ^~~~~~~
+
+[feb-19-1.cpp 2019-02-20 01:13:27.796]
+feb-19-1.cpp: In function ‘int main()’:
+feb-19-1.cpp:75:27: error: expected ‘;’ before ‘myCar’
+     myCar.setColor("Gray")
+                           ^
+                           ;
+     myCar.setYear(2017);
+     ~~~~~                  
+
+[feb-19-1.cpp 2019-02-20 01:13:38.525]
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getYear()’:
+feb-19-1.cpp:42:16: error: could not convert ‘((Car*)this)->Car::year’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return year;
+                ^~~~
+feb-19-1.cpp: In member function ‘std::__cxx11::string Car::getMileage()’:
+feb-19-1.cpp:51:16: error: could not convert ‘((Car*)this)->Car::mileage’ from ‘int’ to ‘std::__cxx11::string’ {aka ‘std::__cxx11::basic_string<char>’}
+         return mileage;
+                ^~~~~~~
+
+[feb-19-1.cpp 2019-02-20 01:14:51.177]
+feb-19-1.cpp: In member function ‘int Car::setMileage(int)’:
+feb-19-1.cpp:48:5: warning: no return statement in function returning non-void [-Wreturn-type]
+     }
+     ^
+

@@ -21,7 +21,7 @@ xrdb -load ~/.Xresources
 ## RANDOM ##
 #COLOR=$(shuf -n1 -e ~/.colors/*)
 ## STATIC ##
-COLOR="$HOME/.colors/nova"
+COLOR="$HOME/.colors/nord"
 SHORTCOLOR=$(echo $COLOR | sed "s@.*/@@")
 xrdb -merge $COLOR
 paintee
@@ -92,7 +92,6 @@ bspc config active_border_color "$MAGENTA"
 bspc config presel_feedback_color "$GREEN"
 
 ###This creates and names desktops for multiple monitors.
-workspaces_multimonitor &
 
 bspc rule -a screenkey --unmanage
 bspc rule -a gcolor2 state=floating center=true

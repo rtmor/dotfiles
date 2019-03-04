@@ -1,0 +1,54 @@
+[2019-02-18 15:58:36.606] [renderer1] [info] standard startup
+[2019-02-18 16:00:29.795] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 16:03:44.090] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 16:04:32.165] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 16:05:05.998] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 16:06:32.490] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 16:07:00.987] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:42:17.018] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:49:56.045] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:50:16.903] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:50:33.667] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:50:57.811] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:51:29.741] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:52:33.605] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:52:45.317] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:53:24.006] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:53:41.216] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:54:42.245] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 19:59:43.812] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:00:56.320] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:16:10.887] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:16:13.232] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:17:59.701] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:18:02.064] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:18:39.383] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:19:39.469] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:19:47.199] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:19:54.271] [renderer1] [error] Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected: Error: Unable to load file:///home/rtmoran/.vscode/extensions/chad.nord-operator-theme-1.1.0/themes/Nord%20Operator%20Theme-color-theme.json: Problems parsing JSON theme file: Property name expected, Value expected, Comma expected, Value expected, Comma expected, Value expected, Comma expected, Value expected
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:4673:37
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-02-18 20:20:41.789] [renderer1] [error] Manifest is not found chad.nord-operator-theme
+[2019-02-18 20:30:24.819] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:31:54.343] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:32:14.982] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:34:15.747] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:36:59.215] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:39:49.821] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:40:04.606] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:40:17.059] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:40:41.284] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:43:47.468] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:46:33.024] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:49:05.049] [renderer1] [info] no standard startup: not a new window
+[2019-02-18 20:49:50.478] [renderer1] [info] no standard startup: not a new window

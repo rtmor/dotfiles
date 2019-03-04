@@ -37,10 +37,11 @@
     "workbench.statusBar.feedback.visible": false,
     "explorer.confirmDelete": false,
     "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "rtmoran",
-    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Nord Operator Theme",
     "workbench.enableExperiments": false,
-    "editor.acceptSuggestionOnEnter": "smart"
+    "editor.acceptSuggestionOnEnter": "smart",
+    "workbench.activityBar.visible": true,
+    "editor.cursorStyle": "block-outline",
 }
 
 

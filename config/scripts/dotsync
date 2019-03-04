@@ -30,6 +30,11 @@ cp -r $XDG_CONFIG_HOME/nvim/ $DOT_HOME/config/
 cp -r $XDG_CONFIG_HOME/polybar/ $DOT_HOME/config/
 cp -r $XDG_CONFIG_HOME/pulse/ $DOT_HOME/config/
 cp -r $XDG_CONFIG_HOME/ranger/ $DOT_HOME/config/
+cp -r /home/rtmoran/.local/share/tufte-css/ /home/rtmoran/github/dotfiles/config
+cp -r /home/rtmoran/.dir_colors /home/rtmoran/github/dotfiles/rtmoran
+cp -r /home/rtmoran/.vim/ /home/rtmoran/github/dotfiles/rtmoran
+cp -r /home/rtmoran/.msmtprc /home/rtmoran/github/dotfiles/rtmoran
+cp -r /home/rtmoran/.tmux.conf /home/rtmoran/github/dotfiles/rtmoran
 cp -r /home/rtmoran/.config/startpage/ /home/rtmoran/github/dotfiles/config
 cp -r /home/rtmoran/.vscode/ /home/rtmoran/github/dotfiles/rtmoran
 cp -r /home/rtmoran/.config/Code/ /home/rtmoran/github/dotfiles/config

@@ -33,7 +33,6 @@ call plug#end()
 	set mouse=a
    set termguicolors
 	cmap qq q!
-   set noshowmode
    set fcs=eob:\  
 
 
@@ -44,17 +43,17 @@ filetype plugin indent on
 " autocmd VimEnter,BufNewFile,BufReadPost * silent! HardTimeOn
 
 " Set Theme
-colorscheme nova
-let g:nova_transparent = 1
-"colorscheme nord
-"let g:nord_uniform_status_lines = 1
-"let g:nord_comment_brightness = 12
-"let g:nord_cursor_line_number_background = 1
-"let g:nord_italic_comments = 1
-"let g:nord_underline = 1
-"let g:nord_italic = 1
+colorscheme nord
+let s:italicize_comments="italic"
+let g:nord_uniform_status_lines = 1
+let g:nord_comment_brightness = 11
+let g:nord_cursor_line_number_background = 0
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+highlight Comment cterm=italic gui=italic
+highlight String cterm=italic gui=italic
 let g:lightline = {
-      \ 'colorscheme': 'nova',
+      \ 'colorscheme': 'nord',
       \ }
 
 " On pressing tab, insert 2 spaces

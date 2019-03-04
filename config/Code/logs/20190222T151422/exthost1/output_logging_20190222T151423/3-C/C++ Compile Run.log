@@ -1,0 +1,24 @@
+[3-9.cpp 2019-02-22 20:55:57.472]
+In file included from 3-9.cpp:4:
+Account.h: In member function ‘void Account::withdraw(int)’:
+Account.h:23:10: error: ‘cout’ was not declared in this scope
+          cout << "Withdrawal amount exceeded account balance." << endl;
+          ^~~~
+
+[3-9.cpp 2019-02-22 20:55:57.472]
+Account.h:23:10: note: suggested alternative:
+In file included from 3-9.cpp:3:
+/usr/include/c++/8.2.1/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^~~~
+In file included from 3-9.cpp:4:
+Account.h:23:67: error: ‘endl’ was not declared in this scope
+          cout << "Withdrawal amount exceeded account balance." << endl;
+                                                                   ^~~~
+Account.h:23:67: note: suggested alternative:
+In file included from /usr/include/c++/8.2.1/iostream:39,
+                 from 3-9.cpp:3:
+/usr/include/c++/8.2.1/ostream:590:5: note:   ‘std::endl’
+     endl(basic_ostream<_CharT, _Traits>& __os)
+     ^~~~
+

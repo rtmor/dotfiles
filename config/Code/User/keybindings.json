@@ -1,3 +1,71 @@
 // Place your key bindings in this file to override the defaults
 [
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-editor.action.clipboardCopyAction",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "-workbench.action.files.openFile"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "-workbench.action.tasks.build"
+    }
 ]

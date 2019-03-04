@@ -29,4 +29,5 @@ pamac-tray &
 nm-applet &
 mpd &
 /usr/bin/bash -c "sleep 10 && $HOME/.config/scripts/gcsfconnect" &
+blueman-applet &
 #run "mpd-notification -H 127.0.0.1 -m /home/rtmoran/Music/ -p 6650 -t 6" &

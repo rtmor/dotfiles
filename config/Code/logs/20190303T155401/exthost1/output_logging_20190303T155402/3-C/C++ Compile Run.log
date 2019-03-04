@@ -1,0 +1,693 @@
+[source.cpp 2019-03-03 20:54:32.597]
+/usr/bin/ld: /tmp/cc5vuqyT.o: in function `main':
+source.cpp:(.text+0x5b): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::
+[source.cpp 2019-03-03 20:54:32.598]
+char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0xbd): undefined reference to `Account::Account(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int)'
+/usr/bin/ld: source.cpp:(.text+0x10a): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x13d): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x182): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x1b2): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x240): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x2b5): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x2e4
+[source.cpp 2019-03-03 20:54:32.598]
+): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x317): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x35c): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x38c): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x417): undefined reference to `Account::deposit(int)'
+/usr/bin/ld: source.cpp:(.text+0x489): undefined reference to `Account::withdraw(int)'
+/usr/bin/ld: source.cpp:(.text+0x4b8): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x4eb): undefined reference to `Account::getBalance()'
+/usr/bin/ld: source.cpp:(.text+0x530): undefined reference to `Account::getName[abi:cxx11]()'
+/usr/bin/ld: source.cpp:(.text+0x560): undefined reference to `Account::getBalance()'
+
+[source.cpp 2019-03-03 20:54:32.598]
+collect2: error: ld returned 1 exit status
+
+[source.cpp 2019-03-03 20:57:31.875]
+In file included from source.cpp:5:
+Employee.h:6:24: error: expected ‘)’ before ‘,’ token
+         Employee(string,string,int);
+                 ~      ^
+                        )
+Employee.h:7:27: error: ‘string’ has not been declared
+         void setFirstName(string);
+                           ^~~~~~
+
+[source.cpp 2019-03-03 20:57:31.875]
+Employee.h:8:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getFirstName();
+         ^~~~~~
+         stdin
+Employee.h:9:26: error: ‘string’ has not been declared
+         void setLastName(string);
+                          ^~~~~~
+
+[source.cpp 2019-03-03 20:57:31.876]
+Employee.h:10:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getLastName();
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:57:31.876]
+Employee.h:18:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string firstName;
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:57:31.876]
+Employee.h:19:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string lastName;
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:57:31.878]
+source.cpp: In function ‘int main()’:
+source.cpp:15:54: error: no matching function for call to ‘Employee::Employee(<brace-enclosed initializer list>)’
+     Employee emp1{iFirstName,iLastName,iMonthlySalary};
+                                                      ^
+In file included from source.cpp:5:
+Employee.h:3:7: note: candidate: ‘Employee::Employee()’
+ class Employee {
+       ^~~~~~~~
+Employee.h:3:7: note:   candidate expects 0 arguments, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(const Employee&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(Employee&&)’
+
+[source.cpp 2019-03-03 20:57:31.878]
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+
+[source.cpp 2019-03-03 20:57:31.880]
+source.cpp:19:54: error: no matching function for call to ‘Employee::Employee(<brace-enclosed initializer list>)’
+     Employee emp2{iFirstName,iLastName,iMonthlySalary};
+                                                      ^
+In file included from source.cpp:5:
+Employee.h:3:7: note: candidate: ‘Employee::Employee()’
+ class Employee {
+       ^~~~~~~~
+Employee.h:3:7: note:   candidate expects 0 arguments, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(const Employee&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(Employee&&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+
+[Employee.cpp 2019-03-03 20:57:39.637]
+In file included from Employee.cpp:5:
+Employee.h:6:24: error: expected ‘)’ before ‘,’ token
+         Employee(string,string,int);
+                 ~      ^
+                        )
+Employee.h:7:27: error: ‘string’ has not been declared
+         void setFirstName(string);
+                           ^~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.637]
+Employee.h:8:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getFirstName();
+         ^~~~~~
+         stdin
+Employee.h:9:26: error: ‘string’ has not been declared
+         void setLastName(string);
+                          ^~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.637]
+Employee.h:10:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getLastName();
+         ^~~~~~
+         stdin
+
+[Employee.cpp 2019-03-03 20:57:39.638]
+Employee.h:18:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string firstName;
+         ^~~~~~
+         stdin
+
+[Employee.cpp 2019-03-03 20:57:39.638]
+Employee.h:19:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string lastName;
+         ^~~~~~
+         stdin
+
+[Employee.cpp 2019-03-03 20:57:39.638]
+Employee.cpp:9:9: error: no declaration matches ‘Employee::Employee(std::__cxx11::string, std::__cxx11::string, int)’
+         Employee::Employee(string iFirstName, string iLastName, int iMonthlySalary) {
+         ^~~~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.640]
+In file included from Employee.cpp:5:
+Employee.h:3:7: note: candidates are: ‘constexpr Employee::Employee(Employee&&)’
+ class Employee {
+       ^~~~~~~~
+Employee.h:3:7: note:                 ‘constexpr Employee::Employee(const Employee&)’
+Employee.h:3:7: note:                 ‘Employee::Employee()’
+Employee.h:3:7: note: ‘class Employee’ defined here
+
+[Employee.cpp 2019-03-03 20:57:39.641]
+Employee.cpp:15:14: error: no declaration matches ‘void Employee::setFirstName(std::__cxx11::string)’
+         void Employee::setFirstName(string iFirstName) {
+              ^~~~~~~~
+In file included from Employee.cpp:5:
+Employee.h:7:14: note: candidate is: ‘void Employee::setFirstName(int)’
+         void setFirstName(string);
+              ^~~~~~~~~~~~
+Employee.h:3:7: note: ‘class Employee’ defined here
+ class Employee {
+       ^~~~~~~~
+Employee.cpp:18:16: error: no declaration matches ‘std::__cxx11::string Employee::getFirstName()’
+         string Employee::getFirstName() {
+                ^~~~~~~~
+Employee.cpp:18:16: note: no functions named ‘std::__cxx11::string Employee::getFirstName()’
+In file included from Employee.cpp:5:
+Employee.h:3:7: note: ‘class Employee’ defined here
+ class Employee {
+       ^~~~~~~~
+Employee.cpp:22:14: error: no declaration matches ‘void Employee::setLastName(std::__cxx11::string)’
+         void Employee::setLastName(string iLastName) {
+              ^~~~~~~~
+In file included from Employee.cpp:5:
+Employee.h:9:14: note: candidate is: ‘void Employee::setLastName(int)’
+         void setLastName(string);
+              ^~~~~~~~~~~
+Employee.h:3:7: note: ‘class Employee’ defined here
+ class Employee {
+       ^~~~~~~~
+Employee.cpp:25:16: error: no declaration matches ‘std::__cxx11::string Employee::getLastName()’
+         string Employee::getLastName() {
+                ^~~~~~~~
+Employee.cpp:25:16: note: no functions named ‘std::__cxx11::string Employee::getLastName()’
+In file included from Employee.cpp:5:
+Employee.h:3:7: note: ‘class Employee’ defined here
+ class Employee {
+       ^~~~~~~~
+Employee.cpp: In member function ‘void Employee::getYearlySalary()’:
+Employee.cpp:39:51: error: ‘firstName’ was not declared in this scope
+             cout << "\nThe yearly salary for " << firstName << " is $" << monthlySalary * 12
+                                                   ^~~~~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.641]
+Employee.cpp:39:51: note: suggested alternative: ‘setFirstName’
+             cout << "\nThe yearly salary for " << firstName << " is $" << monthlySalary * 12
+                                                   ^~~~~~~~~
+                                                   setFirstName
+
+[Employee.cpp 2019-03-03 20:57:39.641]
+Employee.cpp: In member function ‘void Employee::printEmployee()’:
+Employee.cpp:45:39: error: ‘firstName’ was not declared in this scope
+             cout << "First Name: " << firstName << endl;
+                                       ^~~~~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.642]
+Employee.cpp:45:39: note: suggested alternative: ‘setFirstName’
+             cout << "First Name: " << firstName << endl;
+                                       ^~~~~~~~~
+                                       setFirstName
+
+[Employee.cpp 2019-03-03 20:57:39.642]
+Employee.cpp:46:38: error: ‘lastName’ was not declared in this scope
+             cout << "Last Name: " << lastName << endl;
+                                      ^~~~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.643]
+Employee.cpp:46:38: note: suggested alternative: ‘setLastName’
+             cout << "Last Name: " << lastName << endl;
+                                      ^~~~~~~~
+                                      setLastName
+
+[Employee.cpp 2019-03-03 20:57:39.643]
+Employee.cpp: In member function ‘void Employee::getRaise()’:
+Employee.cpp:52:51: error: ‘firstName’ was not declared in this scope
+             cout << "Returning 10% raise for " << firstName << endl;
+                                                   ^~~~~~~~~
+
+[Employee.cpp 2019-03-03 20:57:39.644]
+Employee.cpp:52:51: note: suggested alternative: ‘setFirstName’
+             cout << "Returning 10% raise for " << firstName << endl;
+                                                   ^~~~~~~~~
+                                                   setFirstName
+
+[source.cpp 2019-03-03 20:58:17.302]
+In file included from source.cpp:5:
+Employee.h:6:24: error: expected ‘)’ before ‘,’ token
+         Employee(string,string,int);
+                 ~      ^
+                        )
+Employee.h:7:27: error: ‘string’ has not been declared
+         void setFirstName(string);
+                           ^~~~~~
+
+[source.cpp 2019-03-03 20:58:17.303]
+Employee.h:8:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getFirstName();
+         ^~~~~~
+         stdin
+Employee.h:9:26: error: ‘string’ has not been declared
+         void setLastName(string);
+                          ^~~~~~
+
+[source.cpp 2019-03-03 20:58:17.303]
+Employee.h:10:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string getLastName();
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:58:17.304]
+Employee.h:18:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string firstName;
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:58:17.304]
+Employee.h:19:9: error: ‘string’ does not name a type; did you mean ‘stdin’?
+         string lastName;
+         ^~~~~~
+         stdin
+
+[source.cpp 2019-03-03 20:58:17.305]
+source.cpp: In function ‘int main()’:
+source.cpp:15:54: error: no matching function for call to ‘Employee::Employee(<brace-enclosed initializer list>)’
+     Employee emp1{iFirstName,iLastName,iMonthlySalary};
+                                                      ^
+
+[source.cpp 2019-03-03 20:58:17.305]
+In file included from source.cpp:5:
+Employee.h:3:7: note: candidate: ‘Employee::Employee()’
+ class Employee {
+       ^~~~~~~~
+Employee.h:3:7: note:   candidate expects 0 arguments, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(const Employee&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(Employee&&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+
+[source.cpp 2019-03-03 20:58:17.307]
+source.cpp:19:54: error: no matching function for call to ‘Employee::Employee(<brace-enclosed initializer list>)’
+     Employee emp2{iFirstName,iLastName,iMonthlySalary};
+                                                      ^
+In file included from source.cpp:5:
+Employee.h:3:7: note: candidate: ‘Employee::Employee()’
+ class Employee {
+       ^~~~~~~~
+Employee.h:3:7: note:   candidate expects 0 arguments, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(const Employee&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+Employee.h:3:7: note: candidate: ‘constexpr Employee::Employee(Employee&&)’
+Employee.h:3:7: note:   candidate expects 1 argument, 3 provided
+
+[source.cpp 2019-03-03 21:37:23.026]
+/usr/bin/ld: /tmp/cctC5uOF.o: in function `main':
+source.cpp:(.text+0x2e): undefined reference to `Time::Time
+[source.cpp 2019-03-03 21:37:23.026]
+(int, int, int)'
+/usr/bin/ld: source.cpp:(.text+0x3a): undefined reference to `Time::print() const'
+/usr/bin/ld: source.cpp:(.text+0x55): undefined reference to `Time::Time(int, int, int)'
+/usr/bin/ld: source.cpp:(.text+0x61): undefined reference to `Time::print() const'
+/usr/bin/ld: source.cpp:(.text+0x7c): undefined reference to `Time::setTime(int, int, int)'
+/usr/bin/ld: source.cpp:(.text+0x88): undefined reference to `Time::print() const'
+/usr/bin/ld: source.cpp:(.text+0x9b): undefined reference to `Time::equals(Time const&)'
+collect2: error: ld returned 1 exit status
+
+[car.cpp 2019-03-03 21:44:58.197]
+In file included from car.cpp:3:
+car.h:4:12: error: expected ‘)’ before ‘,’ token
+  Car(string, string, string, int);
+     ~      ^
+            )
+car.h:5:15: error: ‘string’ has not been declared
+  void setMake(string);
+               ^~~~~~
+
+[car.cpp 2019-03-03 21:44:58.197]
+car.h:6:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getMake();
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:44:58.197]
+car.h:7:16: error: ‘string’ has not been declared
+  void setModel(string);
+                ^~~~~~
+
+[car.cpp 2019-03-03 21:44:58.198]
+car.h:8:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getModel();
+  ^~~~~~
+  stdin
+car.h:9:16: error: ‘string’ has not been declared
+  void setColor(string);
+                ^~~~~~
+
+[car.cpp 2019-03-03 21:44:58.198]
+car.h:10:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getColor();
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:44:58.200]
+car.h:16:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string make;
+  ^~~~~~
+  stdin
+car.h:17:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string model;
+  ^~~~~~
+  stdin
+car.h:18:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string color;
+  ^~~~~~
+  stdin
+car.cpp:7:1: error: no declaration matches ‘Car::Car(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int)’
+ Car::Car(string cMake, string cModel, string cColor, int cYear)
+ ^~~
+In file included from car.cpp:3:
+car.h:1:7: note: candidates are: ‘constexpr Car::Car(Car&&)’
+ class Car
+       ^~~
+car.h:1:7: note:                 ‘constexpr Car::Car(const Car&)’
+car.h:1:7: note:                 ‘Car::Car()’
+car.h:1:7: note: ‘class Car’ defined here
+car.cpp:14:6: error: no declaration matches ‘void Car::setMake(std::__cxx11::string)’
+ void Car::setMake(string carMake)
+      ^~~
+In file included from car.cpp:3:
+car.h:5:7: note: candidate is: ‘void Car::setMake(int)’
+  void setMake(string);
+       ^~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:18:8: error: no declaration matches ‘std::__cxx11::string Car::getMake()’
+ string Car::getMake()
+        ^~~
+car.cpp:18:8: note: no functions named ‘std::__cxx11::string Car::getMake()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:22:6: error: no declaration matches ‘void Car::setModel(std::__cxx11::string)’
+ void Car::setModel(string carModel)
+      ^~~
+In file included from car.cpp:3:
+car.h:7:7: note: candidate is: ‘void Car::setModel(int)’
+  void setModel(string);
+       ^~~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+
+[car.cpp 2019-03-03 21:44:58.202]
+car.cpp:26:8: error: no declaration matches ‘std::__cxx11::string Car::getModel()’
+ string Car::getModel()
+        ^~~
+car.cpp:26:8: note: no functions named ‘std::__cxx11::string Car::getModel()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:30:6: error: no declaration matches ‘void Car::setColor(std::__cxx11::string)’
+ void Car::setColor(string carColor)
+      ^~~
+In file included from car.cpp:3:
+car.h:9:7: note: candidate is: ‘void Car::setColor(int)’
+  void setColor(string);
+       ^~~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:34:8: error: no declaration matches ‘std::__cxx11::string Car::getColor()’
+ string Car::getColor()
+        ^~~
+car.cpp:34:8: note: no functions named ‘std::__cxx11::string Car::getColor()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp: In member function ‘void Car::displayCar()’:
+car.cpp:48:30: error: ‘getMake’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                              ^~~~~~~
+car.cpp:48:30: note: suggested alternative: ‘setMake’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                              ^~~~~~~
+                              setMake
+
+[car.cpp 2019-03-03 21:44:58.202]
+car.cpp:48:50: error: ‘getModel’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                  ^~~~~~~~
+
+[car.cpp 2019-03-03 21:44:58.202]
+car.cpp:48:50: note: suggested alternative: ‘setModel’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                  ^~~~~~~~
+                                                  setModel
+
+[car.cpp 2019-03-03 21:44:58.202]
+car.cpp:48:71: error: ‘getColor’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                                       ^~~~~~~~
+
+[car.cpp 2019-03-03 21:44:58.202]
+car.cpp:48:71: note: suggested alternative: ‘setColor’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                                       ^~~~~~~~
+                                                                       setColor
+
+[source.cpp 2019-03-03 21:47:52.441]
+In file included from source.cpp:4:
+car.h:5:12: error: expected ‘)’ before ‘,’ token
+  Car(string, string, string, int);
+     ~      ^
+            )
+car.h:6:15: error: ‘string’ has not been declared
+  void setMake(string);
+               ^~~~~~
+
+[source.cpp 2019-03-03 21:47:52.441]
+car.h:7:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getMake();
+  ^~~~~~
+  stdin
+car.h:8:16: error: ‘string’ has not been declared
+  void setModel(string);
+                ^~~~~~
+
+[source.cpp 2019-03-03 21:47:52.442]
+car.h:9:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getModel();
+  ^~~~~~
+  stdin
+car.h:10:16: error: ‘string’ has not been declared
+  void setColor(string);
+                ^~~~~~
+
+[source.cpp 2019-03-03 21:47:52.442]
+car.h:11:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getColor();
+  ^~~~~~
+  stdin
+
+[source.cpp 2019-03-03 21:47:52.442]
+car.h:17:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string make;
+  ^~~~~~
+  stdin
+
+[source.cpp 2019-03-03 21:47:52.443]
+car.h:18:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string model;
+  ^~~~~~
+  stdin
+
+[source.cpp 2019-03-03 21:47:52.443]
+car.h:19:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string color;
+  ^~~~~~
+  stdin
+
+[source.cpp 2019-03-03 21:47:52.449]
+source.cpp: In function ‘int main()’:
+source.cpp:15:43: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car otherCar{cMake,cModel,cColor,cYear};
+                                           ^
+In file included from source.cpp:4:
+car.h:4:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:4:5: note:   candidate expects 0 arguments, 4 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 4 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 4 provided
+source.cpp:18:48: error: no matching function for call to ‘Car::Car(<brace-enclosed initializer list>)’
+     Car myCar{"Volkswagen","Passat","Grey",2017};  // calling instance of an object (myCar)
+                                                ^
+In file included from source.cpp:4:
+car.h:4:5: note: candidate: ‘Car::Car()’
+     Car();
+     ^~~
+car.h:4:5: note:   candidate expects 0 arguments, 4 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(const Car&)’
+ class Car
+       ^~~
+car.h:1:7: note:   candidate expects 1 argument, 4 provided
+car.h:1:7: note: candidate: ‘constexpr Car::Car(Car&&)’
+car.h:1:7: note:   candidate expects 1 argument, 4 provided
+
+[car.cpp 2019-03-03 21:48:00.917]
+In file included from car.cpp:3:
+car.h:5:12: error: expected ‘)’ before ‘,’ token
+  Car(string, string, string, int);
+     ~      ^
+            )
+car.h:6:15: error: ‘string’ has not been declared
+  void setMake(string);
+               ^~~~~~
+
+[car.cpp 2019-03-03 21:48:00.918]
+car.h:7:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getMake();
+  ^~~~~~
+  stdin
+car.h:8:16: error: ‘string’ has not been declared
+  void setModel(string);
+                ^~~~~~
+
+[car.cpp 2019-03-03 21:48:00.918]
+car.h:9:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getModel();
+  ^~~~~~
+  stdin
+car.h:10:16: error: ‘string’ has not been declared
+  void setColor(string);
+                ^~~~~~
+
+[car.cpp 2019-03-03 21:48:00.919]
+car.h:11:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string getColor();
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:48:00.919]
+car.h:17:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string make;
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:48:00.919]
+car.h:18:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string model;
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:48:00.920]
+car.h:19:2: error: ‘string’ does not name a type; did you mean ‘stdin’?
+  string color;
+  ^~~~~~
+  stdin
+
+[car.cpp 2019-03-03 21:48:00.920]
+car.cpp:11:1: error: no declaration matches ‘Car::Car(std::__cxx11::string, std::__cxx11::string, std::__cxx11::string, int)’
+ Car::Car(string cMake, string cModel, string cColor, int cYear)
+ ^~~
+
+[car.cpp 2019-03-03 21:48:00.922]
+In file included from car.cpp:3:
+car.h:1:7: note: candidates are: ‘constexpr Car::Car(Car&&)’
+ class Car
+       ^~~
+car.h:1:7: note:                 ‘constexpr Car::Car(const Car&)’
+car.cpp:7:1: note:                 ‘Car::Car()’
+ Car::Car() {
+ ^~~
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:18:6: error: no declaration matches ‘void Car::setMake(std::__cxx11::string)’
+ void Car::setMake(string carMake)
+      ^~~
+In file included from car.cpp:3:
+car.h:6:7: note: candidate is: ‘void Car::setMake(int)’
+  void setMake(string);
+       ^~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:22:8: error: no declaration matches ‘std::__cxx11::string Car::getMake()’
+ string Car::getMake()
+        ^~~
+car.cpp:22:8: note: no functions named ‘std::__cxx11::string Car::getMake()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:26:6: error: no declaration matches ‘void Car::setModel(std::__cxx11::string)’
+ void Car::setModel(string carModel)
+      ^~~
+In file included from car.cpp:3:
+car.h:8:7: note: candidate is: ‘void Car::setModel(int)’
+  void setModel(string);
+       ^~~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:30:8: error: no declaration matches ‘std::__cxx11::string Car::getModel()’
+ string Car::getModel()
+        ^~~
+car.cpp:30:8: note: no functions named ‘std::__cxx11::string Car::getModel()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:34:6: error: no declaration matches ‘void Car::setColor(std::__cxx11::string)’
+ void Car::setColor(string carColor)
+      ^~~
+In file included from car.cpp:3:
+car.h:10:7: note: candidate is: ‘void Car::setColor(int)’
+  void setColor(string);
+       ^~~~~~~~
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp:38:8: error: no declaration matches ‘std::__cxx11::string Car::getColor()’
+ string Car::getColor()
+        ^~~
+car.cpp:38:8: note: no functions named ‘std::__cxx11::string Car::getColor()’
+In file included from car.cpp:3:
+car.h:1:7: note: ‘class Car’ defined here
+ class Car
+       ^~~
+car.cpp: In member function ‘void Car::displayCar()’:
+car.cpp:52:30: error: ‘getMake’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                              ^~~~~~~
+
+[car.cpp 2019-03-03 21:48:00.923]
+car.cpp:52:30: note: suggested alternative: ‘setMake’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                              ^~~~~~~
+                              setMake
+car.cpp:52:50: error: ‘getModel’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                  ^~~~~~~~
+
+[car.cpp 2019-03-03 21:48:00.923]
+car.cpp:52:50: note: suggested alternative: ‘setModel’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                  ^~~~~~~~
+                                                  setModel
+car.cpp:52:71: error: ‘getColor’ was not declared in this scope
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                                       ^~~~~~~~
+
+[car.cpp 2019-03-03 21:48:00.923]
+car.cpp:52:71: note: suggested alternative: ‘setColor’
+  cout << getYear() << " " << getMake() << " " << getModel() << " " << getColor() << endl;
+                                                                       ^~~~~~~~
+                                                                       setColor
+

@@ -1,0 +1,6 @@
+[feb-19-1.cpp 2019-02-24 02:27:25.035]
+feb-19-1.cpp: In function ‘int main()’:
+feb-19-1.cpp:110:13: error: request for member ‘printCar’ in ‘yourCar’, which is of non-class type ‘Car()’
+     yourCar.printCar();    // no parameters are passed with 'yourCar' so it imports
+             ^~~~~~~~
+
